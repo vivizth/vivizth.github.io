@@ -23,7 +23,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - run: hugo -D 
+      - run: npm ci
+      - run: npm run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
