@@ -10,9 +10,6 @@
     "build": "hugo -D",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "hugo-cli": "^0.11.0"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vivizth/vivizth.github.io.git"
@@ -22,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/vivizth/vivizth.github.io/issues"
   },
-  "homepage": "https://github.com/vivizth/vivizth.github.io#readme"
+  "homepage": "https://github.com/vivizth/vivizth.github.io#readme",
+  "devDependencies": {
+    "hugo-bin": "^0.68.0"
+  }
 }
